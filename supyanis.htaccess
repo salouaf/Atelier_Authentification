@@ -1,1 +1,5 @@
+AuthName "Accès protégé"
+AuthType Basic
+AuthUserFile /home/supyanis/www/.htpasswd
+Require valid-user
 
