@@ -2,7 +2,7 @@
 // Démarrer une session utilisateur qui sera en mesure de pouvoir gérer les Cookies
 session_start();
 
-$token = bin2hex(random_bytes(16));  / creer le jeton aléatoire au lieu de la valeur statique 12345
+$token = bin2hex(random_bytes(16)); //creer le jeton aléatoire au lieu de la valeur statique_12345
 
 // Vérifier si l'utilisateur est déjà en possession d'un cookie valide (cookie authToken ayant le contenu 12345)
 // Si l'utilisateur possède déjà ce cookie, il sera redirigé automatiquement vers la page home.php
