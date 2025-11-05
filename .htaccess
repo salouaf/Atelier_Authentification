@@ -1,5 +1,5 @@
 AuthName "Accès protégé"
 AuthType Basic
-AuthUserFile /home/supyanis/www/.htpasswd
+AuthUserFile /home/supyanis/www/atelier1.htpasswd
 Require valid-user
 
